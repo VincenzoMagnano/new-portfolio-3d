@@ -1,3 +1,9 @@
+export interface LogoIconType {
+  name: string;
+  imgPath: string;
+}
+
+
 const navLinks = [
   {
     name: "Work",
@@ -35,38 +41,49 @@ const counterItems = [
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
-const logoIconsList = [
+const logoIconsList: LogoIconType[] = [
   {
+    name: "logo1",
     imgPath: "/images/logos/company-logo-1.png",
   },
   {
+    name: "logo2",
     imgPath: "/images/logos/company-logo-2.png",
   },
   {
+    name: "logo3",
     imgPath: "/images/logos/company-logo-3.png",
   },
   {
+    name: "logo4",
     imgPath: "/images/logos/company-logo-4.png",
   },
   {
+    name: "logo5",
     imgPath: "/images/logos/company-logo-5.png",
   },
   {
+    name: "logo6",
     imgPath: "/images/logos/company-logo-6.png",
   },
   {
+    name: "logo7",
     imgPath: "/images/logos/company-logo-7.png",
   },
   {
+    name: "logo8",
     imgPath: "/images/logos/company-logo-8.png",
   },
   {
+    name: "logo9",
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
+    name: "logo10",
     imgPath: "/images/logos/company-logo-10.png",
   },
   {
+    name: "logo11",
     imgPath: "/images/logos/company-logo-11.png",
   },
 ];
